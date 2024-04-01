@@ -1,0 +1,22 @@
+body {
+    font-family: $font;
+
+    transition: all 0.5s;
+
+    
+    &.dark {
+        background-color: $cor-primaria;
+        color: $cor-secundaria;
+    }
+}
+
+.container {
+
+    max-width: 1140px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+
+}
